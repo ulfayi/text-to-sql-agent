@@ -60,6 +60,22 @@ Frontend UI: **Streamlit**
 
 ---
 
+## 💡 Example Queries You Can Ask
+"Anbarda 200 qramdan az qalan hansı ətirlər var?"
+
+"Satılan hər bir ətir üzrə nə qədər xalis mənfəət qazanmışıq? Ən gəlirlidən sırala."
+
+"Bütün satışlardan ümumi dövriyyəmiz və kassaya daxil olan xalis pul nə qədərdir?"
+
+## 🛡️ Security & Guardrails
+Read-Only Enforced: The SQL execution tool explicitly verifies that queries start with SELECT or WITH.
+
+Database URI Protection: SQLite connection uses ?mode=ro ensuring zero risk of file modification from the LLM layer.
+
+## 📜 License
+Distributed under the MIT License. See LICENSE for more information.
+---
+
 ## 📂 Project Structure
 
 ```text
